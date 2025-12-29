@@ -2053,231 +2053,6 @@
     </data>
     <include preset="ieq_balanced" />
   </profile>
-  <profile id="9" name="LoudNorm">
-    <data>
-      <ieq-enable value="false" />
-      <ieq-amount value="6" />
-      <mi-dialog-enhancer-steering-enable value="false" />
-      <mi-dv-leveler-steering-enable value="true" />
-      <mi-ieq-steering-enable value="false" />
-      <mi-surround-compressor-steering-enable value="false" />
-      <mi-adaptive-virtualizer-steering-enable value="false" />
-      <volume-modeler-enable value="false" />
-      <reverb-suppression-enable value="false" />
-      <reverb-suppression-amount value="0" />
-      <endpoint_type id="speaker">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="16" />
-        <dialog-enhancer-ducking value="6" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="headphone">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="16" />
-        <dialog-enhancer-ducking value="6" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="bluetooth">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="16" />
-        <dialog-enhancer-ducking value="6" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="usb">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="16" />
-        <dialog-enhancer-ducking value="6" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="remote_submix">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="0" />
-        <dialog-enhancer-ducking value="0" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="false" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-320" />
-        <volume-leveler-out-target value="-320" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="aux_digital">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="0" />
-        <dialog-enhancer-ducking value="0" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="false" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-496" />
-        <volume-leveler-out-target value="-496" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-      <endpoint_type id="default">
-        <system-gain value ="0" />
-        <calibration-boost value="0" />
-        <dialog-enhancer-enable value="false" />
-        <dialog-enhancer-amount value="16" />
-        <dialog-enhancer-ducking value="6" />
-        <mi-virtualizer-binaural-steering-enable value="false" />
-        <peak-value value="256" />
-        <surround-decoder-enable value="true" />
-        <surround-boost value="0" />
-        <volmax-boost value="0" />
-        <volume-leveler-enable value="true" />
-        <volume-leveler-amount value="7" />
-        <volume-leveler-in-target value="-256" />
-        <volume-leveler-out-target value="-224" />
-        <graphic-equalizer-enable value="false" />
-        <virtualizer-enable value="false" />
-        <headtracking-enable value="false" />
-        <headphone-virtualizer-steerer-source-distance value="4"/>
-        <bass-mbdrc-enable value="false" />
-        <bass-enhancer-enable value="false" />
-        <virtual-bass-process-enable value="false" />
-        <headphone-virtualizer-mode value="2" />
-        <speaker-virtualizer-mode value="2" />
-        <advanced-speaker-virtualizer-start-bin value="6" />
-        <advanced-speaker-virtualizer-rendering-config value="103,32568,6698,5090,0,3,3,3" />
-        <advanced-headphone-virtualizer-rendering-config value="103,32568,11164,5090,0,3,3,3" />
-        <surround-decoder-diffuse-relocating-to-front-amount value="0" />
-        <advanced-headphone-virtualizer-lr-angle value="45" />
-      </endpoint_type>
-    </data>
-    <include preset="ieq_balanced" />
-  </profile>
   <tuning name="default" endpoint_type="other" mono_device="false" tuned_rate="48000" orientation="2" output_channels="2">
     <data>
       <height-filter-mode value="0" />
@@ -2306,26 +2081,26 @@
   <tuning name="speaker" endpoint_type="speaker" mono_device="false" tuned_rate="48000" orientation="1" output_channels="2">
     <data>
       <audio-optimizer-bands>
-        <band_optimizer frequency="47" gain_left="16" gain_right="16" />
+        <band_optimizer frequency="47" gain_left="32" gain_right="32" />
         <band_optimizer frequency="141" gain_left="0" gain_right="0" />
         <band_optimizer frequency="234" gain_left="0" gain_right="0" />
-        <band_optimizer frequency="328" gain_left="32" gain_right="32" />
+        <band_optimizer frequency="328" gain_left="-16" gain_right="-16" />
         <band_optimizer frequency="469" gain_left="0" gain_right="0" />
-        <band_optimizer frequency="656" gain_left="16" gain_right="16" />
+        <band_optimizer frequency="656" gain_left="32" gain_right="32" />
         <band_optimizer frequency="844" gain_left="0" gain_right="0" />
-        <band_optimizer frequency="1031" gain_left="-16" gain_right="-16" />
-        <band_optimizer frequency="1313" gain_left="-16" gain_right="-16" />
-        <band_optimizer frequency="1688" gain_left="-48" gain_right="-48" />
-        <band_optimizer frequency="2250" gain_left="0" gain_right="0" />
-        <band_optimizer frequency="3000" gain_left="80" gain_right="80" />
-        <band_optimizer frequency="3750" gain_left="48" gain_right="48" />
-        <band_optimizer frequency="4688" gain_left="16" gain_right="16" />
-        <band_optimizer frequency="5813" gain_left="16" gain_right="16" />
-        <band_optimizer frequency="7125" gain_left="32" gain_right="32" />
-        <band_optimizer frequency="9000" gain_left="-16" gain_right="-16" />
-        <band_optimizer frequency="11250" gain_left="-32" gain_right="-32" />
+        <band_optimizer frequency="1031" gain_left="0" gain_right="0" />
+        <band_optimizer frequency="1313" gain_left="0" gain_right="0" />
+        <band_optimizer frequency="1688" gain_left="-16" gain_right="-16" />
+        <band_optimizer frequency="2250" gain_left="16" gain_right="16" />
+        <band_optimizer frequency="3000" gain_left="32" gain_right="32" />
+        <band_optimizer frequency="3750" gain_left="16" gain_right="16" />
+        <band_optimizer frequency="4688" gain_left="80" gain_right="80" />
+        <band_optimizer frequency="5813" gain_left="48" gain_right="48" />
+        <band_optimizer frequency="7125" gain_left="48" gain_right="48" />
+        <band_optimizer frequency="9000" gain_left="0" gain_right="0" />
+        <band_optimizer frequency="11250" gain_left="0" gain_right="0" />
         <band_optimizer frequency="13875" gain_left="0" gain_right="0" />
-        <band_optimizer frequency="19688" gain_left="-64" gain_right="-64" />
+        <band_optimizer frequency="19688" gain_left="0" gain_right="0" />
       </audio-optimizer-bands>
       <regulator-tuning>
         <band_regulator frequency="47" threshold_low="-192" threshold_high="0" isolated_band="false" />
